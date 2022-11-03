@@ -20,8 +20,8 @@
                     <li class="list-group-item">Submitted by <%= campground.author.username%>
                     </li>
                     <li class="list-group-item">$<%= campground.price%>/night</li>
-
                 </ul>
+
                 <% if( currentUser && campground.author.equals(currentUser._id)) {%>
                     <div class="card-body">
                         <a href="/campgrounds/<%=campground._id%>/edit" class="card-link btn btn-info">Edit</a>
@@ -30,14 +30,13 @@
                         </form>
                     </div>
                     <% } %>
-                        <div class="card-footer text-muted"> a month ago
+                        <div class="card-footer text-muted"> 2 days ago
                         </div>
             </div>
         </div>
         <div class="col-6">
             <% if (currentUser) { %>
                 <h2>Leave a Review</h2>
-
                 <form action="/campgrounds/<%=campground._id%>/reviews" method="POST" class="mb-3 validated-form"
                     novalidate>
                     <div class="mb-3">
@@ -55,9 +54,8 @@
                         <div class="card mb-3">
                             <div class="card-body">
                                 <h5 class="card-title">
-                                    Rating: <%=review.rating %>
+                                    <%= review.author.username%>
                                 </h5>
-                                <h3>Rated element name</h3>
                                 <p class="starability-result" data-rating="<%=review.rating %>">
                                     Rated: <%=review.rating %> stars
                                 </p>
