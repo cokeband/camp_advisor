@@ -23,18 +23,28 @@ const seedDB = async () => {
             author: "634859edea7ce9917bd26e13",
             location: `${cities[random1000].city}, ${cities[random1000].state}`,
             title: `${sample(descriptors)} ${sample(places)}`,
-            //image: `https://source.unsplash.com/collection/483251`,
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste commodi ipsa magni accusamus ipsam nostrum, nihil architecto, eius quos vero tenetur voluptatem odio necessitatibus facere sed, quia eveniet voluptate minima?",
             price,
             images: [
                 {
-                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668111411/CampAdvisor/gxwrvrt45kylwidkrf6i.jpg',
-                    filename: 'CampAdvisor/gxwrvrt45kylwidkrf6i',
+                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668117591/CampAdvisor/e8elpg9dhbkuglcijbz5.jpg',
+                    filename: 'CampAdvisor/e8elpg9dhbkuglcijbz5',
                 },
                 {
-                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668111412/CampAdvisor/dwjbwot2qxbto8hgi5ed.jpg',
-                    filename: 'CampAdvisor/dwjbwot2qxbto8hgi5ed',
-
+                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668117592/CampAdvisor/jow7ohdifuiyvb2f4tms.jpg',
+                    filename: 'CampAdvisor/jow7ohdifuiyvb2f4tms',
+                },
+                {
+                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668117592/CampAdvisor/ivzopr3c5hplsrx6m3nb.jpg',
+                    filename: 'CampAdvisor/ivzopr3c5hplsrx6m3nb',
+                },
+                {
+                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668117592/CampAdvisor/l5kmylbzfqsvfzrq0xmw.jpg',
+                    filename: 'CampAdvisor/l5kmylbzfqsvfzrq0xmw',
+                },
+                {
+                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668117592/CampAdvisor/an6ku6y49ldn1i6mfbfo.jpg',
+                    filename: 'CampAdvisor/an6ku6y49ldn1i6mfbfo',
                 }
             ]
         })
