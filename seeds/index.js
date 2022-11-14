@@ -27,24 +27,20 @@ const seedDB = async () => {
             price,
             images: [
                 {
-                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668117591/CampAdvisor/e8elpg9dhbkuglcijbz5.jpg',
-                    filename: 'CampAdvisor/e8elpg9dhbkuglcijbz5',
+                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668464983/CampAdvisor/sym0e9c9umukxht2psyf.jpg',
+                    filename: 'CampAdvisor/sym0e9c9umukxht2psyf',
                 },
                 {
-                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668117592/CampAdvisor/jow7ohdifuiyvb2f4tms.jpg',
-                    filename: 'CampAdvisor/jow7ohdifuiyvb2f4tms',
+                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668464983/CampAdvisor/kpdqdpc9xhgjnwbucads.jpg',
+                    filename: 'CampAdvisor/kpdqdpc9xhgjnwbucads',
                 },
                 {
-                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668117592/CampAdvisor/ivzopr3c5hplsrx6m3nb.jpg',
-                    filename: 'CampAdvisor/ivzopr3c5hplsrx6m3nb',
+                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668464983/CampAdvisor/ipfin0bruldl6azhodfy.jpg',
+                    filename: 'CampAdvisor/ipfin0bruldl6azhodfy',
                 },
                 {
-                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668117592/CampAdvisor/l5kmylbzfqsvfzrq0xmw.jpg',
-                    filename: 'CampAdvisor/l5kmylbzfqsvfzrq0xmw',
-                },
-                {
-                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668117592/CampAdvisor/an6ku6y49ldn1i6mfbfo.jpg',
-                    filename: 'CampAdvisor/an6ku6y49ldn1i6mfbfo',
+                    url: 'https://res.cloudinary.com/du3mjcykb/image/upload/v1668464984/CampAdvisor/yyduaoign5j6hefgcd9q.jpg',
+                    filename: 'CampAdvisor/yyduaoign5j6hefgcd9q',
                 }
             ]
         })
