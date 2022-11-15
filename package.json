@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/cokeband/camp_advisor#readme",
   "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.13.7",
     "bcrypt": "^5.1.0",
     "bootstrap": "^5.2.1",
     "cloudinary": "^1.32.0",
