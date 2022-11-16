@@ -24,14 +24,12 @@
                     </a>
                     <% } %>
             </div>
+
+        
             <div class="card mb-3">
                 <div class="card-body">
-                    <h5 class="card-title">
-                        <%= campground.title%>
-                    </h5>
-                    <p class="card-text">
-                        <%= campground.description%>
-                    </p>
+                    <h5 class="card-title"><%= campground.title%></h5>
+                    <p class="card-text"><%= campground.description%></p>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item text-muted">
@@ -109,13 +107,14 @@
                                     <% } %>
                             </div>
                         </div>
-                        <% } %>
+                <% } %>
         </div>
     </div>
 
 
     <script>
         const mapToken = "<%-process.env.MAPBOX_TOKEN%>";
+        const campground = <%- JSON.stringify(campground) %>
     </script>
 
     <script src="/javascripts/showPageMap.js"></script>
